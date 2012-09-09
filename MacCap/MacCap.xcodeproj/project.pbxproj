@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B07AE415FC480D00286AEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B07AE315FC480D00286AEC /* Cocoa.framework */; };
+		82B07AEE15FC480D00286AEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82B07AEC15FC480D00286AEC /* InfoPlist.strings */; };
+		82B07AF015FC480D00286AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B07AEF15FC480D00286AEC /* main.m */; };
+		82B07AF415FC480D00286AEC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82B07AF215FC480D00286AEC /* Credits.rtf */; };
+		82B07AF715FC480D00286AEC /* com_testfluenceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B07AF615FC480D00286AEC /* com_testfluenceAppDelegate.m */; };
+		82B07AFA15FC480E00286AEC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B07AF815FC480E00286AEC /* MainMenu.xib */; };
+		82B07B0215FC480E00286AEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B07B0115FC480E00286AEC /* SenTestingKit.framework */; };
+		82B07B0315FC480E00286AEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B07AE315FC480D00286AEC /* Cocoa.framework */; };
+		82B07B0B15FC480E00286AEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82B07B0915FC480E00286AEC /* InfoPlist.strings */; };
+		82B07B0E15FC480E00286AEC /* MacCapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B07B0D15FC480E00286AEC /* MacCapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B07B0415FC480E00286AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B07AD615FC480D00286AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B07ADE15FC480D00286AEC;
+			remoteInfo = MacCap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B07ADF15FC480D00286AEC /* MacCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B07AE315FC480D00286AEC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82B07AE615FC480D00286AEC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82B07AE715FC480D00286AEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82B07AE815FC480D00286AEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82B07AEB15FC480D00286AEC /* MacCap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacCap-Info.plist"; sourceTree = "<group>"; };
+		82B07AED15FC480D00286AEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82B07AEF15FC480D00286AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B07AF115FC480D00286AEC /* MacCap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacCap-Prefix.pch"; sourceTree = "<group>"; };
+		82B07AF315FC480D00286AEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82B07AF515FC480D00286AEC /* com_testfluenceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_testfluenceAppDelegate.h; sourceTree = "<group>"; };
+		82B07AF615FC480D00286AEC /* com_testfluenceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_testfluenceAppDelegate.m; sourceTree = "<group>"; };
+		82B07AF915FC480E00286AEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82B07B0015FC480E00286AEC /* MacCapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacCapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B07B0115FC480E00286AEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		82B07B0815FC480E00286AEC /* MacCapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacCapTests-Info.plist"; sourceTree = "<group>"; };
+		82B07B0A15FC480E00286AEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82B07B0C15FC480E00286AEC /* MacCapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacCapTests.h; sourceTree = "<group>"; };
+		82B07B0D15FC480E00286AEC /* MacCapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacCapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B07ADC15FC480D00286AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07AE415FC480D00286AEC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B07AFC15FC480E00286AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07B0215FC480E00286AEC /* SenTestingKit.framework in Frameworks */,
+				82B07B0315FC480E00286AEC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B07AD415FC480D00286AEC = {
+			isa = PBXGroup;
+			children = (
+				82B07AE915FC480D00286AEC /* MacCap */,
+				82B07B0615FC480E00286AEC /* MacCapTests */,
+				82B07AE215FC480D00286AEC /* Frameworks */,
+				82B07AE015FC480D00286AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B07AE015FC480D00286AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B07ADF15FC480D00286AEC /* MacCap.app */,
+				82B07B0015FC480E00286AEC /* MacCapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B07AE215FC480D00286AEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B07AE315FC480D00286AEC /* Cocoa.framework */,
+				82B07B0115FC480E00286AEC /* SenTestingKit.framework */,
+				82B07AE515FC480D00286AEC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82B07AE515FC480D00286AEC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B07AE615FC480D00286AEC /* AppKit.framework */,
+				82B07AE715FC480D00286AEC /* CoreData.framework */,
+				82B07AE815FC480D00286AEC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82B07AE915FC480D00286AEC /* MacCap */ = {
+			isa = PBXGroup;
+			children = (
+				82B07AF515FC480D00286AEC /* com_testfluenceAppDelegate.h */,
+				82B07AF615FC480D00286AEC /* com_testfluenceAppDelegate.m */,
+				82B07AF815FC480E00286AEC /* MainMenu.xib */,
+				82B07AEA15FC480D00286AEC /* Supporting Files */,
+			);
+			path = MacCap;
+			sourceTree = "<group>";
+		};
+		82B07AEA15FC480D00286AEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B07AEB15FC480D00286AEC /* MacCap-Info.plist */,
+				82B07AEC15FC480D00286AEC /* InfoPlist.strings */,
+				82B07AEF15FC480D00286AEC /* main.m */,
+				82B07AF115FC480D00286AEC /* MacCap-Prefix.pch */,
+				82B07AF215FC480D00286AEC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82B07B0615FC480E00286AEC /* MacCapTests */ = {
+			isa = PBXGroup;
+			children = (
+				82B07B0C15FC480E00286AEC /* MacCapTests.h */,
+				82B07B0D15FC480E00286AEC /* MacCapTests.m */,
+				82B07B0715FC480E00286AEC /* Supporting Files */,
+			);
+			path = MacCapTests;
+			sourceTree = "<group>";
+		};
+		82B07B0715FC480E00286AEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B07B0815FC480E00286AEC /* MacCapTests-Info.plist */,
+				82B07B0915FC480E00286AEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B07ADE15FC480D00286AEC /* MacCap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B07B1115FC480E00286AEC /* Build configuration list for PBXNativeTarget "MacCap" */;
+			buildPhases = (
+				82B07ADB15FC480D00286AEC /* Sources */,
+				82B07ADC15FC480D00286AEC /* Frameworks */,
+				82B07ADD15FC480D00286AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCap;
+			productName = MacCap;
+			productReference = 82B07ADF15FC480D00286AEC /* MacCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82B07AFF15FC480E00286AEC /* MacCapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B07B1415FC480E00286AEC /* Build configuration list for PBXNativeTarget "MacCapTests" */;
+			buildPhases = (
+				82B07AFB15FC480E00286AEC /* Sources */,
+				82B07AFC15FC480E00286AEC /* Frameworks */,
+				82B07AFD15FC480E00286AEC /* Resources */,
+				82B07AFE15FC480E00286AEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B07B0515FC480E00286AEC /* PBXTargetDependency */,
+			);
+			name = MacCapTests;
+			productName = MacCapTests;
+			productReference = 82B07B0015FC480E00286AEC /* MacCapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B07AD615FC480D00286AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.testfluence;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Testfluence;
+			};
+			buildConfigurationList = 82B07AD915FC480D00286AEC /* Build configuration list for PBXProject "MacCap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82B07AD415FC480D00286AEC;
+			productRefGroup = 82B07AE015FC480D00286AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B07ADE15FC480D00286AEC /* MacCap */,
+				82B07AFF15FC480E00286AEC /* MacCapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B07ADD15FC480D00286AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07AEE15FC480D00286AEC /* InfoPlist.strings in Resources */,
+				82B07AF415FC480D00286AEC /* Credits.rtf in Resources */,
+				82B07AFA15FC480E00286AEC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B07AFD15FC480E00286AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07B0B15FC480E00286AEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82B07AFE15FC480E00286AEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B07ADB15FC480D00286AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07AF015FC480D00286AEC /* main.m in Sources */,
+				82B07AF715FC480D00286AEC /* com_testfluenceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B07AFB15FC480E00286AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B07B0E15FC480E00286AEC /* MacCapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B07B0515FC480E00286AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B07ADE15FC480D00286AEC /* MacCap */;
+			targetProxy = 82B07B0415FC480E00286AEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82B07AEC15FC480D00286AEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B07AED15FC480D00286AEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82B07AF215FC480D00286AEC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B07AF315FC480D00286AEC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82B07AF815FC480E00286AEC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B07AF915FC480E00286AEC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82B07B0915FC480E00286AEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B07B0A15FC480E00286AEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B07B0F15FC480E00286AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82B07B1015FC480E00286AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82B07B1215FC480E00286AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCap/MacCap-Prefix.pch";
+				INFOPLIST_FILE = "MacCap/MacCap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82B07B1315FC480E00286AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCap/MacCap-Prefix.pch";
+				INFOPLIST_FILE = "MacCap/MacCap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82B07B1515FC480E00286AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacCap.app/Contents/MacOS/MacCap";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCap/MacCap-Prefix.pch";
+				INFOPLIST_FILE = "MacCapTests/MacCapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82B07B1615FC480E00286AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacCap.app/Contents/MacOS/MacCap";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCap/MacCap-Prefix.pch";
+				INFOPLIST_FILE = "MacCapTests/MacCapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B07AD915FC480D00286AEC /* Build configuration list for PBXProject "MacCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B07B0F15FC480E00286AEC /* Debug */,
+				82B07B1015FC480E00286AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B07B1115FC480E00286AEC /* Build configuration list for PBXNativeTarget "MacCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B07B1215FC480E00286AEC /* Debug */,
+				82B07B1315FC480E00286AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82B07B1415FC480E00286AEC /* Build configuration list for PBXNativeTarget "MacCapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B07B1515FC480E00286AEC /* Debug */,
+				82B07B1615FC480E00286AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B07AD615FC480D00286AEC /* Project object */;
+}
